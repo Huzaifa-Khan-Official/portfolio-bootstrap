@@ -18,80 +18,18 @@ body {
     background-repeat: no-repeat;
 }
 
-@media (max-width: 1000px) {
-
-    .background {
-        background-position-x: -10vw;
-    }
+.navbar {
+    margin-left: -25px !important;
 }
 
-@media (max-width: 900px) {
-
-    .background {
-        background-position-x: -20vw;
-    }
+.navbar-toggler {
+    position: absolute;
+    top: -55vh;
+    right: -40vw;
 }
-@media (max-width: 800px) {
-
-    .background {
-        background-position-x: -40vw;
-    }
-}
-@media (max-width: 700px) {
-
-    .background {
-        background-position-x: -60vw;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .background {
-        background-position-x: -88vw;
-    }
-    
-}
-
-@media (max-width: 500px) {
-
-    .background {
-        background-position-x: -126vw;
-    }
-}
-
-@media (max-width: 450px) {
-
-    .background {
-        background-position-x: -150vw;
-    }
-    
-}
-
-@media (max-width: 400px) {
-
-    .background {
-        background-position-x: -180vw;
-    }
-    
-}
-
-@media (max-width: 380px) {
-
-    .background {
-        background-position-x: -190vw;
-    }
-    
-}
-
-@media (max-width: 300px) {
-    
-    .background {
-        background-position-x: -235vw;
-    }
-}
-
 .nav {
     margin-top: 30px !important;
+    width: 60vw;
 }
 .navbar a {
     align-items: center;
