@@ -13,7 +13,8 @@ body {
     z-index: -1;
     background-image: url('./assets/background\ image.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
@@ -48,6 +49,7 @@ body {
     .background {
         background-position-x: -88vw;
     }
+    
 }
 
 @media (max-width: 500px) {
@@ -56,11 +58,13 @@ body {
         background-position-x: -126vw;
     }
 }
+
 @media (max-width: 450px) {
 
     .background {
         background-position-x: -150vw;
     }
+    
 }
 
 @media (max-width: 400px) {
@@ -68,12 +72,15 @@ body {
     .background {
         background-position-x: -180vw;
     }
+    
 }
+
 @media (max-width: 380px) {
 
     .background {
         background-position-x: -190vw;
     }
+    
 }
 
 @media (max-width: 300px) {
@@ -81,7 +88,6 @@ body {
     .background {
         background-position-x: -235vw;
     }
-
 }
 
 .nav {
@@ -111,9 +117,10 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.first {
-    margin-left: -28px;
+.first #line{
     border-bottom: 2px solid #18d26e !important;
+    width: 24px;
+    height: 2px;
 }
 
 .first:hover {
@@ -121,16 +128,26 @@ body {
 }
 
 .nav-link {
-    width: 24px;
+    width: 100%;
     color: rgba(255, 255, 255, 0.7) !important;
+    border-bottom: none !important;
 }
 
-.nav-item {
-    margin-left: 30px;
+.mar_left {
+    margin-left: 3.5%;
 }
 
-.nav-item:hover .nav-link {
-    border-bottom: 2px solid #18d26e;
+#line {
+    display: flex;
+    width: 0px;
+    height: 2px;
+    transition: width 0.5s;
+    background-color: #18d26e !important;
+}
+
+.nav-item:hover #line {
+    width: 24px;
+    height: 2px;
 }
 
 .con_h2 {
@@ -159,9 +176,11 @@ body {
 .social_links a:hover {
     background-color: #18d26e;
 }
+
 #twitter { 
     margin-left: 0px;
 }
+
 .social_links img {
     vertical-align: center;
     width: 18px;
