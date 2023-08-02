@@ -18,6 +18,7 @@ body {
     background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 /* start nav-bar */
 .header {
@@ -109,4 +110,54 @@ body {
 .content_div .about h1{
     font-size: 24px;
     color: #18d26e;
+}
+
+.content_div .about p {
+    line-height: 4vh;
+    font-size: 17px;
+}
+
+.row ul {
+    list-style-type: none;
+    margin-left: -2.5vw;
+    line-height: 3vw;
+}
+
+.row ul img {
+    width: 0.8vw;
+    vertical-align: middle;
+    margin-right: 1vw;
+}
+/* count box */
+.count-box {
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+}
+
+.count-box img {
+    width: 2vw;
+    position: absolute;
+    left: 1.3vw;
+    top: 0.8vw;
+}
+.count-box span {
+    display: block;
+    width: 4.5vw;
+    height: 6.5vh;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: -2.9vh;
+    left: 6.8vw;
+    border-radius: 3vw;
+}
+.count-box h2 {
+    padding-top: 5vh;
+}
+.count-box p {
+    padding-bottom: 3vh;
+}
+
+.count-box h2, p {
+    display: flex;
+    justify-content: center;
 }
