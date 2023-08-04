@@ -161,3 +161,113 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* progress */
+#end {
+    float: right;
+}
+
+.bar {
+    height: 1.5vh;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bar span {
+    height: 1.5vh;
+    display: block;
+}
+
+#html_bar {
+    background-color: #18d26e;
+    animation: html_bar 1s; 
+}
+
+@keyframes html_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
+#php_bar {
+    background-color: #18d26e;
+    animation: php_bar 1s;
+    width: 80%;
+}
+
+@keyframes php_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+
+#css_bar {
+    background-color: #18d26e;
+    animation: css_bar 1s;
+    width: 90%;
+}
+
+@keyframes css_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+
+#wordpress_bar {
+    background-color: #18d26e;
+    animation: wordpress_bar 1s;
+    width: 90%;
+}
+
+@keyframes wordpress_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+
+#javascript_bar {
+    background-color: #18d26e;
+    animation: javascript_bar 1s;
+    width: 75%;
+}
+
+@keyframes javascript_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 75%;
+    }
+}
+
+#photoshop_bar {
+    background-color: #18d26e;
+    animation: photoshop_bar 1s;
+    width: 55%;
+}
+
+@keyframes photoshop_bar {
+    0%{
+        width: 1%;
+    }
+
+    100%{
+        width: 55%;
+    }
+}
