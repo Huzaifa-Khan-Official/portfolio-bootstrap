@@ -271,3 +271,34 @@ body {
         width: 55%;
     }
 }
+
+
+.interests .row div {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 16vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 2vw;
+}
+.interests .row {
+    width: 78.5vw;
+}
+
+.interests #line_after {
+    margin-left: 7.5vw;
+}
+@media (max-width: 990px) {
+    .content_div {
+        display: block;
+    }
+
+    .img {
+        width: 100vw;
+    }
+
+    .img img{
+        width: 69vw;
+    }
+}
