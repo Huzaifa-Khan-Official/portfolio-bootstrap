@@ -361,6 +361,12 @@ p {
         font-size: 35px;
     }
 
+    .nav-link:hover #line {
+        width: 4.5vw;
+    }
+
+
+
 }
 
 @media (min-width: 590px) and (max-width:768px) {
